@@ -45,36 +45,6 @@ Clear separation of entities and relationships
 
 Derived attributes handled via queries or views (not stored redundantly)
 
-Example Entities
-
-AppUser
-
-Workout
-
-WorkoutType
-
-HydrationMetric
-
-HydrationHistory
-
-GymClass
-
-GymClassType
-
-Credit / Reward
-
-HealthRiskMetric
-
-🔗 Relationships
-
-One‑to‑many relationships between users and workouts
-
-One‑to‑many relationships between users and hydration metrics
-
-Many‑to‑many relationships resolved using associative entities where needed
-
-Enforced referential integrity using foreign keys
-
 ⚙️ Advanced SQL Features
 
 Stored Procedures for controlled inserts and business logic
