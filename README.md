@@ -8,64 +8,64 @@ The database supports core fitness use cases such as workout logging, hydration 
 
 🎯 Project Objectives
 
-Design a fully normalized relational database (1NF → BCNF)
+-Design a fully normalized relational database (1NF → BCNF)
 
-Implement real‑world fitness tracking use cases
+-Implement real‑world fitness tracking use cases
 
-Enforce data integrity using primary keys, foreign keys, and constraints
+-Enforce data integrity using primary keys, foreign keys, and constraints
 
-Use advanced SQL features such as views, stored procedures, triggers, and indexes
+-Use advanced SQL features such as views, stored procedures, triggers, and indexes
 
-Optimize queries for performance and analytics
+-Optimize queries for performance and analytics
 
 🗂️ Core Features
 
-User profile and fitness data management
+-User profile and fitness data management
 
-Workout and workout type tracking
+-Workout and workout type tracking
 
-Hydration monitoring with history logging
+-Hydration monitoring with history logging
 
-Gym class and class type management
+-Gym class and class type management
 
-Reward and credit system
+-Reward and credit system
 
-Health metrics and risk indicators
+-Health metrics and risk indicators
 
-Historical tracking through trigger‑based audit tables
+-Historical tracking through trigger‑based audit tables
 
 🧱 Database Design
 Key Design Principles
 
-Fully normalized schema (no partial or transitive dependencies)
+-Fully normalized schema (no partial or transitive dependencies)
 
-Surrogate primary keys for scalability
+-Surrogate primary keys for scalability
 
-Clear separation of entities and relationships
+-Clear separation of entities and relationships
 
-Derived attributes handled via queries or views (not stored redundantly)
+-Derived attributes handled via queries or views (not stored redundantly)
 
 ⚙️ Advanced SQL Features
 
-Stored Procedures for controlled inserts and business logic
+-Stored Procedures for controlled inserts and business logic
 
-Triggers to capture historical changes (e.g., hydration updates)
+-Triggers to capture historical changes (e.g., hydration updates)
 
-Views for frequently accessed analytical data
+-Views for frequently accessed analytical data
 
-Indexes (primary, foreign key, and query‑driven) to improve performance
+-Indexes (primary, foreign key, and query‑driven) to improve performance
 
 📊 Sample Use Cases
 
-Track daily and monthly workout activity
+-Track daily and monthly workout activity
 
-Monitor hydration trends and send reminders
+-Monitor hydration trends and send reminders
 
-Analyze gym class participation
+-Analyze gym class participation
 
-Evaluate health risk indicators over time
+-Evaluate health risk indicators over time
 
-Generate summaries for user engagement and progress
+-Generate summaries for user engagement and progress
 
 🛠️ Technologies Used
 
