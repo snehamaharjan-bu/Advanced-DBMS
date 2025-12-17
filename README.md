@@ -4,7 +4,7 @@ Fitness App Database Management System (DBMS)
 
 This project is a Database Management System (DBMS) designed for a Fitness Application that tracks users, workouts, hydration, gym classes, rewards, and health metrics. The goal of the system is to model real‑world fitness data accurately while demonstrating strong database design principles, normalization, and advanced SQL features.
 
-The database supports core fitness use cases such as workout logging, hydration tracking, class enrollment, and reward credits, while ensuring data integrity, scalability, and efficient querying.
+The database supports core fitness use cases such as workout logging, hydration tracking, class enrollment, and reward credits, while ensuring data integrity, scalability, and efficient querying. Database entities are partially implemented to demonstrate selected sample use cases and core system functionality.
 
 🎯 Project Objectives
 
